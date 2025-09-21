@@ -1,6 +1,12 @@
 spring:
   application:
     name: kuai-da
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/kuai_da
+    username: root
+    password: 1234
 server:
   port: 8123
   servlet:
