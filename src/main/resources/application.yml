@@ -7,6 +7,9 @@ spring:
     url: jdbc:mysql://localhost:3306/kuai_da
     username: root
     password: 1234
+  profiles:
+    active: local
+
 server:
   port: 8123
   servlet:
