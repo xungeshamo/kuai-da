@@ -1,11 +1,11 @@
-package com.xun.kuaida.model.dto;
+package com.xun.kuaida.model.dto.app;
 
 import lombok.Data;
 
 import java.io.Serializable;
 
 @Data
-public class AppUpdateRequest implements Serializable {
+public class AppAdminUpdateRequest implements Serializable {
 
     /**
      * id
@@ -16,6 +16,16 @@ public class AppUpdateRequest implements Serializable {
      * 应用名称
      */
     private String appName;
+
+    /**
+     * 应用封面
+     */
+    private String cover;
+
+    /**
+     * 优先级
+     */
+    private Integer priority;
 
     private static final long serialVersionUID = 1L;
 }

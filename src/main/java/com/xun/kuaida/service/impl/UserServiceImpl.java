@@ -7,7 +7,7 @@ import com.mybatisflex.core.query.QueryWrapper;
 import com.mybatisflex.spring.service.impl.ServiceImpl;
 import com.xun.kuaida.exception.BusinessException;
 import com.xun.kuaida.exception.ErrorCode;
-import com.xun.kuaida.model.dto.UserQueryRequest;
+import com.xun.kuaida.model.dto.user.UserQueryRequest;
 import com.xun.kuaida.model.entity.User;
 import com.xun.kuaida.mapper.UserMapper;
 import com.xun.kuaida.model.enums.UserRoleEnum;

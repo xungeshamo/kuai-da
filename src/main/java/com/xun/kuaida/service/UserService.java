@@ -2,7 +2,7 @@ package com.xun.kuaida.service;
 
 import com.mybatisflex.core.query.QueryWrapper;
 import com.mybatisflex.core.service.IService;
-import com.xun.kuaida.model.dto.UserQueryRequest;
+import com.xun.kuaida.model.dto.user.UserQueryRequest;
 import com.xun.kuaida.model.entity.User;
 import com.xun.kuaida.model.vo.LoginUserVO;
 import com.xun.kuaida.model.vo.UserVO;

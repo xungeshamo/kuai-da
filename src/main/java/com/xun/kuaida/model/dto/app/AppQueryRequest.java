@@ -1,4 +1,4 @@
-package com.xun.kuaida.model.dto;
+package com.xun.kuaida.model.dto.app;
 
 import com.xun.kuaida.common.PageRequest;
 import lombok.Data;
