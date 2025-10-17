@@ -2,6 +2,7 @@ package com.xun.kuaida.service;
 
 import com.mybatisflex.core.query.QueryWrapper;
 import com.mybatisflex.core.service.IService;
+import com.xun.kuaida.model.dto.app.AppAddRequest;
 import com.xun.kuaida.model.dto.app.AppQueryRequest;
 import com.xun.kuaida.model.entity.App;
 import com.xun.kuaida.model.entity.User;
@@ -15,6 +16,8 @@ import java.util.List;
  *
  */
 public interface AppService extends IService<App> {
+
+    Long createApp(AppAddRequest appAddRequest, User loginUser);
 
     AppVO getAppVO(App app);
 
